@@ -1,5 +1,52 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<p>This is a website</p> 
+<!-- ***** Main Banner Area Start ***** -->
+    <div id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left-content">
+                        <div class="inner-content">
+                            <h4>The Restaurant Review</h4>
+                            <h6>For THE BEST EXPERIENCE</h6>
+                            <div class="main-white-button scroll-to-section">
+                                <a href="register.html" class="btn"> Register To See Restaurant Reviews</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="main-banner header-text">
+                        <div class="Modern-Slider">
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img src="{% static 'images/slide-01.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <!-- // Item -->
+
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img src="{% static 'images/image-2.png' %}" alt="">
+                                </div>
+                            </div>
+                            <!-- // Item -->
+
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img src="{% static 'images/image-1.png' %}" alt="">
+                                </div>
+                            </div>
+                            <!-- // Item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
 {% endblock %}
